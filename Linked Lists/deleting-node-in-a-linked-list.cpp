@@ -2,6 +2,8 @@
 Given the head of a linked list ‘list’ of size ‘N’,
 delete the linked list's last node and return the linked list's head.
 
+Problem link - https://leetcode.com/problems/delete-node-in-a-linked-list/description/
+
 Definition for singly-linked list.
 struct ListNode {
     int val;
