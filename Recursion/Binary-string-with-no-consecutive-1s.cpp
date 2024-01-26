@@ -1,6 +1,8 @@
 /*
 Given an integer 'N', generate and return all binary strings of length 'N' 
 such that there are no consecutive 1's in the string.
+
+Problem link - https://www.codingninjas.com/studio/problems/-binary-strings-with-no-consecutive-1s._893001
 */
 
 void solve(int i, int n, string &bin, vector<string>&ans) {
