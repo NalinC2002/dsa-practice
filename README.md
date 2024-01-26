@@ -3,9 +3,9 @@ A practice repo for DSA
 
 Here I add all the solutions to the questions I practice at different coding platforms.
 
-### commands  
+### Commands used on Git Bash
 
-- git status  
-- git add (to stage) 
-- git commit -m " " 
-- git push origin main
+- git status :- checks for the changes made in clone wrt original github repo
+- git add :- to stage the changes made   
+- git commit -m " " :- to commit the changes made with a message
+- git push origin main :- to push the committed changes to original github repo
