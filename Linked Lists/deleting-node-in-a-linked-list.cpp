@@ -26,3 +26,12 @@ void deleteNode(ListNode* node) {
     p->val = p->next->val;
     p->next = NULL;
 }
+
+/*
+Approach:
+
+Since we are not given address of head node,  we will copy next node's data into current node
+with each iteration until we reach last node.
+Then delete the last node.
+This way we have ommitted data of the node to be deleted.
+*/

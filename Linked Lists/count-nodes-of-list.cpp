@@ -38,3 +38,10 @@ int length(Node *head)
     }
     return len;
 }
+
+/*
+Approach:
+
+Used a ptr t to hold head node address.
+Iterate over list and increment length count by 1 each time until t points to null.
+*/

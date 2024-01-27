@@ -21,3 +21,11 @@ Node* insertAtFirst(Node* list, int newValue) {
     list = new Node(newValue, list);
     return list;
 }
+
+/*
+Approach:
+
+We simply use the given constructor Node(int x, Node *next).
+Assign Node* list with address of new node that has newValue as x and list as next ptr.
+Then return list.
+*/

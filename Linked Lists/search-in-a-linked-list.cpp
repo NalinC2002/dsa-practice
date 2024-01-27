@@ -40,3 +40,10 @@ int searchInLinkedList(Node<int> *head, int k) {
     }
     return 0;
 }
+
+/*
+Approach:
+
+Iteratively search for k in list. If found, return 1.
+If ptr reaches null, return 0.
+*/

@@ -22,3 +22,15 @@ vector<string> generateParenthesis(int n) {
 
     return ans;
 }
+
+
+/*
+Approach:
+
+We solve the problem recursively by maintaining a string of parentheses as ds and 
+counter of open parentheses as open. n maintains the count of pairs remaining to be formed.
+With each call to solve, if no new pair is left to be formed and no open parentheses are left,
+we push the string to solution. 
+Else if we have n>0 we open new parenthesis.
+Simultaneously, we check if there are any open parenthesis left to be closed.
+*/
