@@ -32,5 +32,7 @@ Approach:
 We maintain a vector ds that has selected integers from nums.
 We iterate over nums using i and do two things recursively.
 We either take the current integer and add it to ds, 
-or we do not take it and move on with next index.S
+or we do not take it and move on with next index.
+When i equals length of nums we push the particular vector made by the
+combination of take and not take.
 */
