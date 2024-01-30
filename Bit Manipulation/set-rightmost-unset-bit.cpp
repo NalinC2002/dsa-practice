@@ -23,3 +23,10 @@ int setBits(int n){
         return n + (1<<i);
     return n;    
 }
+
+/*
+Approach:
+
+Find the unset bit position, say i, first by right shifting.
+Then add the value of 2^i to number.
+*/
