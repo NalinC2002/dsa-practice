@@ -2,6 +2,8 @@
 Given an array ‘a’ of ‘n’ non-negative integers, check whether 
 the given array is sorted in the non-decreasing order or not.
 Return 1 if the given array is sorted. Else, return 0.
+
+Problem link - https://www.codingninjas.com/studio/problems/ninja-and-the-sorted-check_6581957
 */
 
 int isSorted(int n, vector<int> a) {
