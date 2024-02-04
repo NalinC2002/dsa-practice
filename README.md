@@ -6,9 +6,12 @@ Here I add all the solutions to the questions I practice at different coding pla
 ### Commands used on Git Bash
 
 - git status :- checks for the changes made in clone wrt original github repo
-- git add <filename> :- to stage the changes made in <filename>   
+- git add _filename_ :- to stage the changes made in _filename_ 
 - git commit -m " " :- to commit the changes made with a message
-- git push origin main :- to push the committed changes to original github repo
+- git push _origin main_ :- to push the committed changes to original github repo in branch _origin main_
+
+If changes made in clone file need to pushed into original repo, we need to first add those files to stage the changes and then commit them with a message that will refer to the change made in repo and increase readability of changes made.
+Then our clone repo is 1 commit ahead of original repo, so push changes into it.
 
 ### Methods on Vectors
 
@@ -25,4 +28,4 @@ Here I add all the solutions to the questions I practice at different coding pla
 - v.rbegin() - returns ptr to last element of vector
   v.rend() - reuturns ptr to memory location just before first element  
   #### Incrementing begin will move the ptr to next element of vector, whereas incrementing rbegin will move the ptr to prev element of vector. 
-  #### None of them can be decremented while using to traverse vector.
+  #### None of them can be decremented while using to traverse vector.  
