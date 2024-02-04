@@ -5,6 +5,9 @@ Here I add all the solutions to the questions I practice at different coding pla
 
 ### Commands used on Git Bash
 
+- git --version :- to know current version and to check whether git is functional or not
+- pwd :- shows working directory
+- git clone _link_ :- clones the repo into our system whose link has been provided(click on code button and go to HTTPS to find link)
 - git status :- checks for the changes made in clone wrt original github repo
 - git add _filename_ :- to stage the changes made in _filename_ 
 - git commit -m " " :- to commit the changes made with a message
