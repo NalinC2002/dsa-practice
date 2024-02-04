@@ -7,6 +7,8 @@ Here I add all the solutions to the questions I practice at different coding pla
 
 - git --version :- to know current version and to check whether git is functional or not
 - pwd :- shows working directory
+- cd :- change directory
+- ls :- show all dir and files in current dir
 - git clone _link_ :- clones the repo into our system whose link has been provided(click on code button and go to HTTPS to find link)
 - git status :- checks for the changes made in clone wrt original github repo
 - git add _filename_ :- to stage the changes made in _filename_ 
