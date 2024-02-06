@@ -35,3 +35,6 @@ Then our clone repo is 1 commit ahead of original repo, so push changes into it.
   v.rend() - reuturns ptr to memory location just before first element  
   #### Incrementing begin will move the ptr to next element of vector, whereas incrementing rbegin will move the ptr to prev element of vector. 
   #### None of them can be decremented while using to traverse vector.  
+
+### Methods on Strings
+...to be continued
