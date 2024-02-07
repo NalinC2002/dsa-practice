@@ -37,4 +37,7 @@ Then our clone repo is 1 commit ahead of original repo, so push changes into it.
   #### None of them can be decremented while using to traverse vector.  
 
 ### Methods on Strings
-...to be continued
+- s.begin() - returns ptr to first char of string
+- s.end() - returns ptr to memory location just after last char of string
+- s.length() - returns length of string
+...to be updated
