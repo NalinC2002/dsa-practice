@@ -1,5 +1,5 @@
 # dsa-practice
-A practice repo for DSA
+A practice repository for DSA
 
 Here I add all the solutions to the questions I practice at different coding platforms.
 
