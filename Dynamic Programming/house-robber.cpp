@@ -11,6 +11,16 @@ Problem link - https://leetcode.com/problems/house-robber/description/
 */
 
 
+//Recursion
+int solve(int i, vector<int>&nums) {
+    if(i==0)    return nums[i];
+    if(i==1)    return max(nums[0], nums[1]);
+    if(i==2)    return max(nums[1], nums[0]+nums[2]);
+
+    return max(solve(i-1, nums), nums[i]+solve(i-2, nums));
+}
+
+
 //Memoization
 int solve(int i, vector<int>&dp, vector<int>&nums) {
     if(dp[i]>=0)     return dp[i];
@@ -18,9 +28,7 @@ int solve(int i, vector<int>&dp, vector<int>&nums) {
     if(i==1)    return dp[i] = max(nums[0], nums[1]);
     if(i==2)    return dp[i] = max(nums[1], nums[0]+nums[2]);
 
-    int a = solve(i-2, dp, nums);
-    int b = solve(i-3, dp, nums);
-    dp[i] = max(solve(i-1, dp, nums), max(a, b)+nums[i]);
+    dp[i] = max(solve(i-1, dp, nums), solve(i-2, dp, nums)+nums[i]);
 
     return dp[i];
 }
@@ -43,8 +51,17 @@ int rob(vector<int>& nums) {
     if(n>2)     dp[2] = max(nums[1], nums[0]+nums[2]);
 
     for(int i=3; i<n; i++) {
-        dp[i] = max(dp[i-1], max(dp[i-2], dp[i-3])+nums[i]);
+        dp[i] = max(dp[i-1], dp[i-2]+nums[i]);
     }
 
     return dp[n-1];
 }
+
+
+/*
+Approach:
+
+At each house we see whether to rob it or not. To do so we see if we rob the current house i and houses from i-2
+is greater than total loot that can be gained by following the same procedure for house i-1. 
+
+*/
