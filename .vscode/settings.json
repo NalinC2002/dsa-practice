@@ -1,6 +1,6 @@
 {
     "C_Cpp.default.compilerPath": "c:\\MinGW\\include\\stdlib.h",
-    "C_Cpp.errorSquiggles": "disabled",
+        "C_Cpp.errorSquiggles": "disabled",
     "files.associations": {
         "chrono": "cpp",
         "random": "cpp",
