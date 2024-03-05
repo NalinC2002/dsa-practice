@@ -11,7 +11,7 @@ vector<int> countPrimes(int n)
     isPrime[0] = isPrime[1] = false;
     for(int i=2; i<=n; i++) {
         if(isPrime[i]) {
-            int j = 2;
+            int j = i;
             while(i*j<=n) {
                 isPrime[i*j] = false;
                 j++;
@@ -29,6 +29,8 @@ vector<int> countPrimes(int n)
 
 /*
 Approach:
+
+Sieve of Eratosthenes
 
 We make use of a boolean array isPrime of size n+1 (index 0 to n). We mark it to true initially.
 isPrime[0] = isPrime[1] = false. Start analysing from 2. If a number is true in isPrime then 
