@@ -3,6 +3,17 @@ Given an array ‘Arr’ of size ‘N’ consisting of positive integers, make a
 and return the head of the linked list. Head of the doubly linked list is the first element of the array, 
 and the tail of the doubly linked list is the last element.
 
+Definition for doubly-linked list.
+class Node
+{
+public:
+   int data;
+   Node *next, *prev;
+   Node() : data(0), next(nullptr), prev(nullptr) {}
+   Node(int x) : data(x), next(nullptr), prev(nullptr) {}
+   Node(int x, Node *next, Node *prev) : data(x), next(next), prev(prev) {}
+};
+
 Problem link - https://www.naukri.com/code360/problems/introduction-to-doubly-linked-list_8160413
 */
 
