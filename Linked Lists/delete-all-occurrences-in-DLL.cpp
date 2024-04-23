@@ -27,7 +27,6 @@ public:
 };
 
 Problem link - https://www.naukri.com/code360/problems/delete-all-occurrences-of-a-given-key-in-a-doubly-linked-list_8160461
-
 */
 
 Node * deleteAllOccurrences(Node* head, int k) {
