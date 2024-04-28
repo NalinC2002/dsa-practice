@@ -32,6 +32,7 @@ Problem link - https://leetcode.com/problems/copy-list-with-random-pointer/descr
 class Solution {
 public:
     Node* copyRandomList(Node* head) {
+        if(!head)   return head;
         map<Node*, Node*>m;
         Node *t = head;
         Node *p;
